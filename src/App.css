@@ -1,0 +1,94 @@
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+.header {
+  background-color: #85aef5;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #00246B;
+}
+
+.header h2 {
+  margin-left: 25px;
+}
+
+.header .profiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.todo-input {
+  width: 500px;
+  margin: 30px auto;
+  display: flex;
+
+}
+
+.todo-input input {
+  height: 20px;
+  width: 490px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 3px solid #00246B;
+  border-radius: 10px
+}
+
+.todo-input button {
+  width: 80px;
+  border: 10px;
+  font-size: 15px;
+  background-color: red;
+  border: 3px solid #CADCFC;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+
+
+.todolist{
+  width: 64%;
+  /* background-color: red; */
+  margin: 3px auto;
+}
+
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #A1BE95;
+  margin: 15px;
+  color: rgb(40, 38, 38);
+  font-size: 20px;
+  border: 0px;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+
+.linkedin-img{
+  width: 25px;
+}
+
+.github-img{
+  width: 35px;
+  height: 25px;
+  border: 0px;
+  border-radius: 412px;
+}
+
+.del-btn{
+  margin: 3px 6px;
+  width: 60px;
+  color: whitesmoke;
+  background-color: #ff5e2d;
+  border: 0px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
